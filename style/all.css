@@ -1,0 +1,125 @@
+.a_body{
+   max-width: 400px;                
+    margin: 40px auto;     
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.06);
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0px 24px 36px;
+    
+}
+.a_header{
+    
+}
+.ad_header{
+    text-align: center;
+    margin-top: 52px;
+}
+.s_header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin-right: 12px;
+    background: none;
+    border: none;
+}
+.sp_header{
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+.spa_header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+    color: #46A358;
+    margin-left: 10px;
+    background: none;
+    border: none;
+}
+.p_header{
+    text-align: center;
+    margin-top: 40px;
+    color: #3D3D3D;
+    
+}
+.in_text{
+    text-align: center;
+    margin-bottom: 16px;
+    
+}
+.a_input{
+    width: 300px;
+    line-height: 40px;
+    color: #A5A5A5;
+    
+    margin-top: 14px;
+    padding: 12px 0px 12px 14px;
+    border-radius: 5px; 
+    border: 1px solid #EAEAEA
+
+}
+.in_footer{
+    text-align: center;
+}
+.a_footer{
+    background-color: #46A358;
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 36px;
+    margin-top: 41px;
+
+}
+.footer_register{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 118px 13px 119px;
+
+}
+.footer_k{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3D3D3D;
+    
+}
+.footer_img{
+    display: flex;
+   flex-direction: column; 
+   gap: 12px;
+   align-items: center;
+   margin-top: 27px;
+}
+.b_footer{
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background: none;
+    color: #727272;
+    padding: 16px 82px 16px 82px;
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+.bc_footer{
+     border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background: none;
+    color: #727272;
+    padding: 16px 76px 16px 76px;
+    text-align: center;
+} 
+.imageb{
+ vertical-align: middle;
+ padding-right: 4px;
+}
+.imagebc{
+ vertical-align: middle;
+ padding-right: 9px;
+}
