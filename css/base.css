@@ -1,0 +1,53 @@
+/* Восстановление базовых шрифтов */
+body {
+    font-family: "Cera Pro" , "Bolt";
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Восстановление стандартных отступов параграфов */
+p {
+    margin: 0 0 1em;
+}
+
+/* Сбрасываем сброс button */
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Восстановление нормального поведения input */
+input {
+    padding: 0;
+    border: none;
+    font: inherit;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+/* Убираем display: inline-block от reset у видео/канваса */
+video, canvas {
+    display: block;
+}
+
+/* Восстанавливаем вертикальное выравнивание картинок */
+img {
+    vertical-align: middle;
+}
+
+/* Чтобы контейнеры вновь реагировали по-старому */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Возвращаем нормальные margin-top для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.6em;
+}
+
+/* Восстанавливаем padding у form (reset полностью убрал) */
+form {
+    padding: 0;
+}
