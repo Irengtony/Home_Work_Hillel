@@ -1,0 +1,118 @@
+/* @import './fonts.css'; */
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+ }
+
+ 
+  body{
+     font-family: 'Cera Pro';
+     
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .container{  
+    margin: 0 auto;
+    max-width: 1200px;
+    /* background:linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    padding:  68px 43px; */
+ }
+ .logo{
+    float: left;
+ }
+ .menu {
+    display: flex;
+    gap: 50px;
+    margin-right: 370px;
+    margin-left: 229px;
+}
+ .nav{
+    border: none;
+    background: none;
+ }
+ .enter_btn{
+    border: none;
+    border-radius: 5px;
+    float: right;
+ }
+ .line {
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin-bottom: 106px;
+}
+ .section1{
+    
+    
+    .leftsite{
+        max-width: 600px;
+        float: left;
+        margin-left: 40px;
+        display: inline-block;
+    }
+
+h3{
+   font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.4px; 
+        color: #3D3D3D;
+
+}
+    
+    h1{
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    color: #3D3D3D;
+    margin-bottom: 5px;
+    span{
+color: #46A358;
+    }
+    }
+     
+    h4{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #727272;
+        margin-bottom: 44px;
+    }
+    .btn_shop{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        
+    }
+    button{ background-color: #46A358;
+        border-radius: 5px;
+        border: none;
+        padding: 11px 27px 9px 26px;
+    }
+
+
+.rightsite{
+    float: right;
+    max-width: 600px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+    img:not(.small_image){ 
+        height: 450px;
+    }
+
+    .small_image{
+        height: 135px;
+        position: absolute;
+        bottom: 12px;
+        left: 52px;
+    }
+}
+
+ }
