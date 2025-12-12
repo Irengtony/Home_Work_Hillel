@@ -8,12 +8,19 @@ body{
     font-family: 'Cera Pro';
 }
 
-/* ---------- HEADER ---------- */
 
-header {
+ .container {
+    max-width: 1200px;
     width: 100%;
+    margin: 0 auto;
+      
+}
+header {
     border-bottom: 1px solid #E0E0E0;
-    padding: 0 43px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }
 
 .header-wrapper{
@@ -47,11 +54,14 @@ header {
     cursor: pointer;
 }
 
-/* ---------- SECTION 1 ---------- */
+
 
 .section1{
     background: linear-gradient(97.77deg, rgba(245,245,245,0.5) -23%, rgba(245,245,245,0.5) 107%);
     padding: 68px 43px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .section-content{
@@ -60,7 +70,7 @@ header {
     align-items: center;
 }
 
-/* LEFT BLOCK */
+
 
 .leftsite{
     max-width: 500px;
@@ -107,7 +117,7 @@ header {
     background-color: #389b48;
 }
 
-/* RIGHT BLOCK */
+
 
 .rightsite{
     position: relative;
