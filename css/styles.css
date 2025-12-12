@@ -13,7 +13,6 @@ body{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-      
 }
 header {
     border-bottom: 1px solid #E0E0E0;
@@ -73,7 +72,7 @@ header {
 
 
 .leftsite{
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .leftsite h3{
