@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: 'Cera Pro';
+    
+ }
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 171px;
+    
+  
+ }
+ .container2{
+    max-width: 310px; 
+ }
+ /* LEFT SIDE */
+
+ .glav{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 7px;
+ }
+ .left-m{
+    padding: 14px 0px 377px 18px; 
+    background: #FBFBFB;
+
+ }
+ .left-meny{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    transition: 0.3s;
+    color: #3D3D3D;
+ }
+ .left-meny:first-child{
+    color: #46A358;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+ }
+ .left-meny:hover{
+    color: #46A358;
+ }
+.left-flover{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
+/* RIGHT SIDE */
+.rightside {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.menu-left {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 31px;
+}
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 31px;
+    padding-right: 38;
+}
+.nav{
+border: none;
+background:none;
+}
+.nav:first-child{
+    color: #46A358;
+    border-bottom:2px solid #46A358;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+}
+.btn-arrow{
+   border: none;
+   background:none;
+}
+.menu_picture {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.menu_picture li {
+    width: 250px;
+}
+.picture-list{
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 33px;
+    max-width: 840px;
+    margin-left: 50px;
+    list-style: none;
+    
+}
+.picture_area{
+    /* width: 258px;
+    height: 350px;
+    background-color: #eb0d0d; */
+}
+.picture{
+       width: 100%;
+       height: 250px;
+       /* object-fit: cover;    */
+       
+} 
+.cost_text{
+    color: #3D3D3D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 6px;
+} 
+.cost_number{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+    padding-bottom: 70px;
+}
+.btn_down{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 65px;
+    
+}
+.btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: none;
+    color: #3D3D3D;
+    border: 1px solid #E5E5E5
+}
+.btn:first-child{
+    background-color: #46A358;
+    color: #FFFFFF;
+}
