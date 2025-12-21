@@ -410,6 +410,7 @@ justify-content: end;
 }
  }
   }
+  
 .centr_side{
 h2{
 font-weight: 700;
@@ -428,7 +429,6 @@ padding-top: 15px;
 padding-bottom: 35px;
 }
 
-
 }
 
 .down_part{
@@ -439,6 +439,7 @@ gap: 44px;
     .left_part{
      display: flex;
      gap: 44px;  
+     
     }
     .first_part{
        width: 268px;
@@ -476,7 +477,7 @@ padding-bottom: 9px;
         font-size: 14px;
         line-height: 16px;
         color: #3D3D3D;
-        transition: 0.3;
+        transition: 0.3s;
         
     }
     .read_m:hover{
@@ -486,5 +487,11 @@ padding-bottom: 9px;
     .right_part{
         display: flex;
         gap: 42px;
+    }
+    .back_blog{
+        background-color: #FBFBFB;
+    }
+    .in_text{
+        padding: 9px 13px 12px 13px;
     }
 }
