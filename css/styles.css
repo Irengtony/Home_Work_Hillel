@@ -38,62 +38,93 @@ header {
     display: flex;
     align-items: center;
     gap: 47px;
-transition: 0.3s;
-    li { 
-        position: relative;
-        a{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 100%;
-        }
-      }
+}
 
-    & > li > ul{
+.nav li { 
+    position: relative;
+}
+
+.nav li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.nav > li > ul{
     position: absolute;
-	left: 50%;
-	display: none; 
+    left: 50%;
+    display: none; 
     top: 100%;
     padding: 16px;
     transform: translateX(-50%);
     z-index: 10;
-    a{
-     background: #EDF6EE;
-    }
-    }
+}
 
-    &>li:hover>ul{
+.nav > li:hover > ul{
     display: block;
     width: 188px;
-    }
+    padding-top: 35px;
+}
 
 
-    & > li > ul > li > ul{
+.nav > li > ul > li > ul{
     display: none;
     position: absolute;
     padding: 16px;
     transition: 0.3s;
-    a{ background: #EDF6EE;
-    }
-    }
+}
 
-    & > li > ul > li:hover > ul{
+.nav > li > ul > li:hover > ul{
     display: block;
     left: 90%;
-    top: 0%;   
-    width: 178px;
-    }
+    top: 0%;  
 }
+
 .nav a {
-	text-transform: uppercase;
-	padding: 8px 14px;
-	
+    white-space: nowrap;
+    padding: 8px 14px;
     color: #3D3D3D;
-    display: block;
+    display: block;                 
     text-decoration: none;
 }
-/* .nav:hover{
-    color: #46A358;
-} */
+
+.nav > li > ul a{
+    background: #EDF6EE;
+}
+
+.nav > li > ul > li:hover > a,
+.nav > li > ul > li > ul > li:hover > a{
+    background: #389b48;
+    color: #fff;
+}
+
+.nav > li > ul > li{
+    background: transparent;
+}
+
+.nav > li > ul a.active{
+    background: #389b48;
+    color: #fff;
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .arrow{
+    width: 6px;             
+    height: 10px;
+    opacity: 0;
+    transform: translateX(-6px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.nav li:hover > a .arrow{
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 .enter_btn{
     border: none;
