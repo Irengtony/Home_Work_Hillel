@@ -659,6 +659,10 @@ gap: 44px;
 }
 .img_card{
     padding-bottom: 15px;
+     transition: transform 0.25s ease;
+}
+.img_card:hover{
+transform: scale(1.25);
 }
 .card_text{
 padding-bottom: 9px;
@@ -709,6 +713,10 @@ align-content: center;
     color: #FFFFFF;
     font-size: 14px;
     cursor: pointer;
+    transition: font-size 0.25s ease;
+}
+.subscribe button:hover {
+    font-size: 21px;
 }
 h3{
 font-weight: 700;
@@ -828,11 +836,35 @@ border-radius: 4px;
 text-decoration: none;
 width: 30px;
 height: 30px;
+transition: font-size 0.25s ease;
+transition: background-color 0.25s ease, border-color 0.25s ease;
 }
-.img_link img {
+.img_link svg {
     width: 16px;
     height: 16px;
+    display: block;
 }
+.social-icon {
+    width: 16px;
+    height: 16px;
+    fill: #3D3D3D;
+    transition: fill 0.25s ease, transform 0.25s ease;
+}
+.img_link .icon {
+    width: 16px;
+    height: 16px;
+    fill: #46A358;
+    transition: fill 0.25s ease, transform 0.25s ease;
+}   
+.img_link:hover {
+     transform: scale(1.35);
+    background-color: #e7e70c;
+}
+.img_link:hover .social-icon {
+    fill: #ffffff;
+    transform: scale(1.1);
+}
+}   
 .text_down_partner{
 padding-top: 33px;
 padding-bottom: 13px;
@@ -862,4 +894,3 @@ padding-top: 7px;
 padding-bottom: 13px;
 }
 
-}
