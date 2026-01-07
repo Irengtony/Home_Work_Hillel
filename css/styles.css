@@ -135,6 +135,20 @@ header {
     text-decoration: none; 
     align-items: center;
 }
+.svg_enter_btn{
+    transition: 0.3s;
+}
+.svg_enter_btn:hover{
+    transform: scale(1.1);
+}
+.login{
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+.login:hover{
+    color: #3D3D3D;
+    transform: scale(1.1);
+}
 
 
 
@@ -187,19 +201,21 @@ header {
 
 .shop-btn{
     background-color: #46A358;
-    border: none;
     padding: 12px 28px;
-    color: white;
-    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
 }
-
-.shop-btn:hover{
-    background-color: #389b48;
+.shop-btn button{
+    background-color: #46A358;
+    border: none;
+    color: white;
+     font-size: 16px;
+     transition: 0.3s;
 }
-
-
+.shop-btn button:hover{
+    color:#3D3D3D;
+    transform: scale(1.1);
+}
 
 .rightsite{
     position: relative;
@@ -251,14 +267,18 @@ header {
     transition: 0.3s;
     color: #3D3D3D;
  }
- .left-meny:first-child{
+ /* .left-meny:first-child{
     color: #46A358;
     font-weight: 700;
     font-size: 15px;
     line-height: 40px;
- }
+ } */
  .left-meny:hover{
-    color: #46A358;
+color: #46A358;
+font-weight: 700;
+font-size: 15px;
+line-height: 40px;
+
  }
 .left-flover{
     width: 100%;
@@ -283,9 +303,6 @@ header {
     color: #3D3D3D;
     transition: 0.3s;
 }
-.nav2:hover{
-color: #46A358;
-}
 .menu-right {
     display: flex;
     align-items: center;
@@ -300,13 +317,17 @@ font-weight: 400;
 font-size: 15px;
 line-height: 16px;
 }
-.nav2:first-child{
+.nav2:hover{
+color: #46A358; 
+border-bottom:2px solid #46A358;
+}
+/* .nav2:first-child{
     color: #46A358;
     border-bottom:2px solid #46A358;
     font-weight: 700;
     font-size: 15px;
     line-height: 16px;
-}
+} */
 .btn-arrow{
    border: none;
    background:none;
@@ -358,6 +379,17 @@ line-height: 16px;
     background: #FFFFFF;
     cursor: pointer;
     align-content: center;
+}
+.svg_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: #3D3D3D;
+}
+.svg_card:hover{
+    color: #46A358;
+    transform:scale(1.1);
 }
 .product-card:hover .card-actions {
     opacity: 1;
@@ -415,6 +447,7 @@ padding-right: 65px;
 }
 
 .btn{
+transition: 0.3s;
 font-weight: 300;
 font-size: 18px;
 line-height: 16px;
@@ -423,14 +456,22 @@ height: 35px;
 border-radius: 5px;
 background: none;
 color: #3D3D3D;
-border: 1px solid #E5E5E5
-    
+border: 1px solid #E5E5E5  
+
+}
+.btn:hover{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+ background-color: #46A358;
 }
 
+/* 
 .btn:first-child{
 background-color: #46A358;
 color: #FFFFFF;
-}
+} */
 
             /* SECTION 3 */
 
@@ -493,7 +534,12 @@ color: #FFFFFF;
 font-family: Cera Pro;
 font-weight: 500;
 font-size: 14px;
-line-height: 20px;  
+line-height: 20px;
+transition: 0.3s; 
+}
+.btn_summer:hover{
+    color: #3D3D3D;
+    transform: scale(1.25); 
 }
 }
 
@@ -546,7 +592,12 @@ font-family: Cera Pro;
 font-weight: 500;
 font-size: 14px;
 line-height: 20px;  
+transition: 0.3s;
 }
+.btn_trends:hover{ 
+    transform: scale(1.25);
+    color: #3D3D3D;
+}   
 }
 }
   
@@ -717,6 +768,7 @@ align-content: center;
 }
 .subscribe button:hover {
     font-size: 21px;
+    color: #3D3D3D;
 }
 h3{
 font-weight: 700;
@@ -832,16 +884,13 @@ padding-bottom: 20px;
     gap: 10px;
 }
 .img_link{
-width: 30px;
-height: 30px;
+width: 32px;
+height: 32px;
 display: flex;
 align-items: center;
 justify-content: center;
-/* border: 1px solid #46A35833;
-border-radius: 4px; */
-text-decoration: none;
-transition: font-size 0.25s ease;
-transition: background-color 0.25s ease, border-color 0.25s ease;
+color: #46A358; 
+    transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 .img_link svg {
     width: 32px;
@@ -851,21 +900,13 @@ transition: background-color 0.25s ease, border-color 0.25s ease;
 .social-icon {
 width: 16px;
 height: 16px;
-fill: #3D3D3D;
 transition: fill 0.25s ease, transform 0.25s ease;
 }
-.img_link .icon {
-    width: 16px;
-    height: 16px;
-    fill: #46A358;
-    transition: fill 0.25s ease, transform 0.25s ease;
-}   
-.img_link:hover {
-    transform: scale(1.35);
-    background-color: #e7e70c;
+
+.img_link:hover{
+    color: #3D3D3D;
 }
 .img_link:hover .social-icon {
-    fill: #ffffff;
     transform: scale(1.1);
 }
 }   
