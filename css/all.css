@@ -1,0 +1,218 @@
+.a_body{
+   max-width: 400px;                
+    margin: 40px auto;     
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.06);
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0px 24px 36px;
+    border-bottom: solid 10px #46A358;
+}
+body{
+    font-family: 'Cera Pro';
+    pointer-events: none;
+    
+    &.active{
+pointer-events: all;
+    }
+    
+}
+.preloader {
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader::after { 
+  content: " ";
+  height: 32px;
+  width: 32px;
+  border: solid;
+  border-width: 4px;
+  border-radius: 50%;
+  border-top-color: #ce352d;
+  border-bottom-color: #a0efd2;
+  border-right-color: #a0efd2;
+  border-left-color: #a0efd2;
+  animation: rotating 1.1s linear infinite;
+}
+.hidden{ display: none;
+}
+@keyframes rotating{
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.ad_header{
+    text-align: center;
+    margin-top: 52px;
+}
+.s_header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin-right: 12px;
+    background: none;
+    border: none;
+    font-family: 'Cera Pro';
+}
+.sp_header{
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+.spa_header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+    color: #46A358;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    font-family: 'Cera Pro';
+}
+.p_header{
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+margin-top: 40px;
+color: #3D3D3D;
+    
+    
+    
+}
+.in_text{
+    text-align: center;
+    margin-bottom: 16px;
+    
+}
+.a_input{
+    width: 300px;
+    line-height: 16px;
+    color: #A5A5A5;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+   
+    padding: 12px 0px 12px 14px;
+    border-radius: 5px; 
+    border: 1px solid #EAEAEA
+
+}
+.in_footer{
+    text-align: center;
+    max-width: 300px;
+}
+.a_footer{
+    background-color: #46A358;
+   
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 36px;
+    margin-top: 41px;
+
+}
+.footer_register{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 118px 13px 119px;
+    font-family: 'Cera Pro';
+
+}
+.footer_k{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3D3D3D;
+    
+}
+.footer_k_text {
+width: 35%;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #3D3D3D;
+}
+.or_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 27px;
+}
+
+.line {
+    height: 1px;
+    width: 100px;
+    background: #EAEAEA;
+}
+.footer_img{
+    display: flex;
+   flex-direction: column; 
+   gap: 12px;
+   align-items: center;
+   margin-top: 27px;
+}
+.b_footer{
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background: none;
+    color: #727272;
+    padding: 10px 66px 10px 68px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Cera Pro';
+   
+}
+
+.bc_footer{
+     border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background: none;
+    color: #727272;
+    padding: 11px 53px 10px 64px;
+    text-align: center;
+span{
+font-family: Cera Pro;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+}
+} 
+.image_b{
+ vertical-align: middle;
+ padding-right: 4px;
+ font-family: Cera Pro;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+}
+.image_bc{
+ vertical-align: middle;
+ padding-right: 9px;
+}
+.green_line{
+    
+}
