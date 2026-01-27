@@ -287,12 +287,68 @@ body {
     }
   }
 }
-
-/* .svg_services svg {
-  color: #24a3ff;
-  transition: color 0.3s;
+/* SECTION 4 */
+.team_main {
+  padding: 60px 60px 46px 60px;
 }
-
-.svg_services:hover svg {
+.face {
+  width: 400px;
+  height: 344px;
+  opacity: 1;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.line_top {
+  border-top: 10px solid #cacadb;
+  max-width: 1400px;
+  width: 100%;
+  opacity: 1;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: 0 auto;
+}
+.line_top2 {
+  border-top: 10px solid #e7e7f2;
+  max-width: 1360px;
+  width: 100%;
+  opacity: 1;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: 0 auto;
+}
+.team_area {
+  display: flex;
+  h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 100%;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px 0 30px 0;
+  }
+  h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #b3b3ba;
+    padding-bottom: 5px;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #b3b3ba;
+  }
+  team_paragraf {
+    padding: 30px;
+    background: #f5f5fa;
+  }
+}
+.team_comand {
+  color: #24a3ff;
+  transition: 0.3s;
+}
+.team_comand:hover {
   color: #f0145a;
-} */
+}
