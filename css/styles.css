@@ -340,7 +340,7 @@ body {
     line-height: 22px;
     color: #b3b3ba;
   }
-  team_paragraf {
+  .team_paragraf {
     padding: 30px;
     background: #f5f5fa;
   }
@@ -351,4 +351,45 @@ body {
 }
 .team_comand:hover {
   color: #f0145a;
+}
+/* SECTION 5 */
+.partners {
+  padding-top: 60px;
+}
+.container_partner {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.partner_box {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.partner_text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 0; /* если нужен отступ — ставь 20px */
+}
+
+.partner {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* важно для логотипов */
 }
