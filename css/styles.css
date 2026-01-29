@@ -393,3 +393,157 @@ body {
   height: 100%;
   object-fit: contain; /* важно для логотипов */
 }
+/* FOOTER */
+.footer_publications {
+  background: #f5f5fa;
+  .publications_svg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0;
+  }
+  .svg_pub {
+    color: #24a3ff;
+    transition: 0.3s;
+  }
+  .svg_pub:hover {
+    color: #f0145a;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 100%;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .publications_paragraf {
+    display: flex;
+    gap: 30px;
+  }
+  .publications_br {
+    background: #ffffff;
+  }
+  img {
+    max-width: 400px;
+  }
+  .publications_text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #24a3ff;
+  }
+  h4 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #b3b3ba;
+  }
+  .publications_span {
+    max-width: 350px;
+    width: 100%;
+    border-bottom: 4px solid #e6e6f0;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+  }
+}
+.footer_info {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .footer_up {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 21px;
+  }
+  .footer_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #323264;
+    border: none;
+    max-width: 198px;
+  }
+  .footer_map {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24a3ff;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .footer_map:hover {
+    color: #f0145a;
+  }
+  .footer_facebook {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .svg_facebook_b {
+    transition: 0.3s;
+    color: #24a3ff;
+    display: flex;
+    align-items: center;
+  }
+  .svg_facebook_b:hover {
+    color: #f0145a;
+  }
+  .telefon {
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+    color: #46466e;
+    transition: 0.3s;
+  }
+  .telefon:hover {
+    color: #f0145a;
+  }
+  .email {
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #24a3ff;
+    transition: 0.3s;
+  }
+  .email:hover {
+    color: #f0145a;
+  }
+}
+.end_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: right;
+  color: #b3b3ba;
+}
+.line_footer {
+  display: block;
+  border-bottom: 4px solid #e6e6f0;
+  max-width: 1320px;
+  width: 100%;
+  padding-top: 30px;
+}
