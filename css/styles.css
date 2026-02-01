@@ -106,7 +106,6 @@ body {
     text-decoration: none;
     border: none;
     font-weight: 700;
-    font-style: Bold;
     font-size: 16px;
     line-height: 100%;
     text-align: right;
@@ -289,7 +288,7 @@ body {
 }
 /* SECTION 4 */
 .team_main {
-  padding: 60px 60px 46px 60px;
+  padding: 60px 60px 0px 60px;
 }
 .face {
   width: 400px;
@@ -318,6 +317,7 @@ body {
 }
 .team_area {
   display: flex;
+  padding-bottom: 30px;
   h2 {
     font-weight: 700;
     font-size: 38px;
@@ -351,6 +351,19 @@ body {
 }
 .team_comand:hover {
   color: #f0145a;
+}
+.svg_ellipse {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+  .ellipse {
+    color: #24a4ff;
+  }
+  .ellipse_opacity {
+    color: #24a4ff;
+    opacity: 0.2;
+  }
 }
 /* SECTION 5 */
 .partners {
