@@ -20,7 +20,7 @@
 <body>
     <section class="page-bg">
         <!-- HEADER -->
-        <header class=" header_top">
+        <header class=" header_top header_desktop">
             <div class="header_meny container">
                 <div class="header_logo">
                     <a href="#">
@@ -61,19 +61,56 @@
                 </div>
             </div>
         </header>
+        <!-- HEADER -->
+        <header class=" header_top header_tablet">
+            <div class="header_meny container">
+                <div class="header_adress">
+                    <a class="language" href=""><span>УК</span></a>
+                    <a class="language" href=""><span>РУ</span></a>
+                    <a class="language" href=""><span>EN</span></a>
+                    <svg width="6" height="6">
+                        <use xlink:href="./sprite.svg#dot" />
+                    </svg>
+                    <span>Kyiv, Mechnikova str, 14/1</span>
+                    <svg width="6" height="6">
+                        <use xlink:href="./sprite.svg#dot" />
+                    </svg>
+                    <a class="telefon" href="tel:0800 211 927">0800 211 927</a>
+                    <svg width="6" height="6">
+                        <use xlink:href="./sprite.svg#dot" />
+                    </svg>
+                    <a class="svg_facebook" href="https://www.facebook.com/Hillel.IT.School/?locale=ru_RU">
+                        <svg width="24" height="24">
+                            <use xlink:href="./sprite.svg#facebook" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="header_logo">
+                    <a href="#">
+                        <svg width="130" height="60">
+                            <use xlink:href="./sprite.svg#logo" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="page">
+                    <a class="link_page" href="./about.html">about us</a>
+                    <a class="link_page" href="./services.html">services</a>
+                    <a class="link_page" href="./team.html">team</a>
+                    <a class="link_page" href="./publications.html">publications</a>
+                    <a class="link_page" href="./contact.html">contact</a>
+                </div>
+            </div>
+        </header>
         <!-- SECTION 1 -->
         <section class="hero">
             <div class="hero-bg container">
                 <div> <img class="hero-h" src="./img/h.png" alt="h"></div>
-                <!-- <svg class="hero-h" width="697" height="799">
-                <use xlink:href="sprite.svg#h" />
-            </svg> -->
                 <div class="midl_down">
                     <h1 class="hero-title" class="glav_text">
                         you legal solutions provider
                     </h1>
 
-                    <a class="down_way" href="#">
+                    <a class="down_way" href="#section2">
                         <svg width="42" height="42">
                             <use xlink:href="./sprite.svg#down" />
                         </svg>
@@ -82,7 +119,7 @@
             </div>
         </section>
         <!-- SECTION 2 -->
-        <section class="main container">
+        <section class="main container" id="section2">
             <div class="info_way container">
                 <div class="meny_way">
                     <h2>Consistent</h2>

@@ -134,6 +134,11 @@ body {
   gap: 60px;
   padding-bottom: 60px;
 }
+.background_cart {
+  & a {
+    text-decoration: none;
+  }
+}
 .team_card {
   padding-bottom: 15px;
   display: flex;

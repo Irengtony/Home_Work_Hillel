@@ -161,25 +161,16 @@ body {
 }
 /* BACKGROUND-TEAM */
 .background_team {
-  width: 100vw; /* ВСЯ ширина экрана */
-  margin-bottom: 60px; /* отступы сверху/снизу */
+  width: 100vw;
+  margin-bottom: 60px;
   overflow: hidden;
 }
 .background_team img {
   width: 100%;
-  height: auto; /* пропорции */
+  height: auto;
   display: block;
 }
-/* .team {
-  max-width: 1440px;
-  height: 438px;
-  width: 100%;
-  margin-bottom: 60px;
-  & img {
-    max-width: 1440px;
-    width: 100%;
-  }
-} */
+
 /* SECTION 2 */
 .middle {
   display: flex;
