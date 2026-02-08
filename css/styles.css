@@ -788,24 +788,6 @@ body {
     }
   }
 }
-@media (max-width: 430px) {
-  .header_tablet {
-    padding: 0px;
-    .header_adress {
-      max-width: 375px;
-      width: 100%;
-      background: #ffffff30;
-      opacity: 3;
-      .adress {
-        display: none;
-      }
-      & svg {
-        display: none;
-      }
-    }
-  }
-}
-
 @media (max-width: 440px) {
   .footer_info {
     display: block;
@@ -827,7 +809,36 @@ body {
   }
 }
 @media (max-width: 430px) {
+  .header_tablet {
+    .header_adress {
+      justify-content: space-between;
+      width: 100%;
+      background: #ffffff30;
+      padding: 10px 15px;
+      opacity: 3;
+      .adress {
+        display: none;
+      }
+      & svg {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
   .team_area {
     max-width: 315px;
   }
 }
+@media (max-width: 430px) {
+  .header_tablet {
+    .header_meny {
+      padding: 0px;
+      top: 0px;
+      position: absolute;
+    }
+  }
+}
+
+/* header_tablet */
