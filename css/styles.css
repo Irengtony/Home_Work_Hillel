@@ -994,4 +994,9 @@ body {
     }
   }
 }
+@media (max-width: 430px) {
+  .hero-title {
+    max-width: 315px;
+  }
+}
 /* header_tablet */
